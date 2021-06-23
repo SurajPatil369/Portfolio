@@ -1,0 +1,11 @@
+.about-me {
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 70vw;
+  font-family: "Ubuntu Mono", monospace;
+  margin: 30px;
+}
+
+.about-me > li {
+  font-size: 18px;
+}

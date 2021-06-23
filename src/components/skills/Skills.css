@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+.skills {
+  padding: 20px;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+}
+
+.skills li {
+  padding: 4px;
+}

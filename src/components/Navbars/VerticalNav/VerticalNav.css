@@ -1,0 +1,63 @@
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+hr {
+  width: 20px;
+  border-top: 0.02px inset var(--mid-background);
+}
+.icon {
+  transform: scale(1.35);
+  margin: 10px;
+  transition: ease-in 0.4s;
+}
+
+.about--icon {
+  position: absolute;
+  bottom: 80px;
+}
+
+.settings--icon {
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+.setting-heading {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.themes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.theme {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin: 8px;
+}
+
+.theme_circle {
+  border-radius: 50%;
+  display: inline-block;
+  height: 35px;
+  transition: ease-in 0.3s;
+  width: 35px;
+
+  margin-right: 15px;
+}
+
+.theme_name {
+  font-size: 14px;
+}
+
+.theme_circle:hover {
+  transform: scale(1.3);
+}
